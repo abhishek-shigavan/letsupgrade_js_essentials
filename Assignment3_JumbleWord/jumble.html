@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Twister</title>
+        <link rel="stylesheet" href="jumble.css">
+    </head>    
+    <body>
+        <div class="container">
+            <div class="padd">
+                <div class="score">
+                    <label>Score :</label>
+                    <pre id="score"> 0</pre>
+                </div>
+            
+                <div class="jumbled">
+                    <p id="jumbled_word"></p>
+                </div>
+            
+                <div class="user_input">
+                    <input type="text" id="ip_word" placeholder="Enter Word" class="input" />
+                    <button class="btn" onclick="checkWord()">Submit</button>
+                </div>
+                <div class="innerHtml" id="display">
+
+                </div>
+            </div>
+        </div>
+        <script src="jumble.js"></script>
+    </body>
+</html>
